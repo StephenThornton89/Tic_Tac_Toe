@@ -229,14 +229,6 @@ public class TicTacToeServer extends JFrame {
 
       return false;
    }
-   /*public boolean boardFilledUp() {
-      for (int i = 0; i < board.length; i++) {
-         if (board[i] == ' ') {
-            return false;
-         }
-      }
-      return true;
-   }*/
    public static void main( String args[] )
    {
       TicTacToeServer application = new TicTacToeServer();
